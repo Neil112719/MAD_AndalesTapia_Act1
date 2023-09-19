@@ -17,15 +17,16 @@ public class MainActivity extends AppCompatActivity {
         increase = findViewById(R.id.increase);
         decrease = findViewById(R.id.decrease);
 
-        increase.setOnClickListener(view -> {
-            float currentSize = text.getTextSize();
-            float newSize=currentSize + 2;
-            text.setTextSize(newSize);
-        });
         decrease.setOnClickListener(view -> {
             float currentSize=text.getTextSize();
             float newSize= currentSize - 2;
             text.setTextSize(newSize);
         });
+        increase.setOnClickListener(view -> {
+            float currentSize = text.getTextSize();
+            float newSize=currentSize + 2;
+            text.setTextSize(newSize);
+        });
+
     }
 }

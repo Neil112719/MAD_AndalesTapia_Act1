@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +25,7 @@
             android:textColor="#ec3b83  "
             android:textSize="30sp" />
     </LinearLayout>
-
+</ScrollView>
     <Button
         android:layout_marginTop="10dp"
         android:id="@+id/increase"
