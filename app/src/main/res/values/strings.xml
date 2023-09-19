@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MAD_AndalesTapia_Act1</string>
+    <string name="title">HELLO WORLD!</string>
+    <string name="up">Increase Font Size</string>
+    <string name="down">Decrease Font Size</string>
+    <string name="color">Change Font Color</string>
 </resources>
