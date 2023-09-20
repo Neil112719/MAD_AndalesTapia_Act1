@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 ContextCompat.getColor(this,R.color.purple_200),
                 ContextCompat.getColor(this,R.color.purple_500),
                 ContextCompat.getColor(this,R.color.teal_200),
+                ContextCompat.getColor(this,R.color.white),
+                ContextCompat.getColor(this,R.color.black),
+                
         };
 
         decrease.setOnClickListener(view -> {
