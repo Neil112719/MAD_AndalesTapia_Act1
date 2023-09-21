@@ -4,67 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/nice"
     android:orientation="vertical">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffe4e1"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/black"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bebas"
             android:gravity="center"
             android:text="@string/title"
             android:textAlignment="center"
-            android:textColor="#ec3b83  "
-            android:textSize="30sp" />
+            android:textColor="@color/red"
+            android:textSize="50sp" />
     </LinearLayout>
-</ScrollView>
+
     <Button
-        android:layout_marginTop="10dp"
         android:id="@+id/increase"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="30sp"
-        android:background="#956E6E"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bebas"
+        android:background="@drawable/shape_gradient_button"
         android:text="@string/up"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="35sp"
         app:iconPadding="5dp"
-        app:iconTint="#FF367B"/>
+        app:backgroundTint="@null"/>
 
     <Button
-        android:layout_marginTop="10dp"
         android:id="@+id/decrease"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#ff956e80"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bebas"
+        android:background="@drawable/shape_gradient_button"
         android:text="@string/down"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="30sp"
+        android:textSize="35sp"
         app:iconPadding="5dp"
-        app:iconTint="#FF367B" />
+        app:backgroundTint="@null"/>
 
     <Button
-        android:layout_marginTop="10dp"
         android:id="@+id/color"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#956E6E"
-        android:text="With Gradient"
-        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bebas"
         android:background="@drawable/shape_gradient_button"
+        android:text="@string/color"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
         app:iconPadding="5dp"
-        app:iconTint="#FF367B"
-        />
+        app:backgroundTint="@null" />
 </LinearLayout>

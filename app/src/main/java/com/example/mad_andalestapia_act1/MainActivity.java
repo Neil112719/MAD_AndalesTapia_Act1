@@ -22,11 +22,17 @@ public class MainActivity extends AppCompatActivity {
         decrease = findViewById(R.id.decrease);
         color = findViewById(R.id.color);
         colorArray = new int[]{
-                ContextCompat.getColor(this,R.color.purple_200),
-                ContextCompat.getColor(this,R.color.purple_500),
+                ContextCompat.getColor(this,R.color.blue),
                 ContextCompat.getColor(this,R.color.teal_200),
-                ContextCompat.getColor(this,R.color.white),
+                ContextCompat.getColor(this,R.color.yellow),
                 ContextCompat.getColor(this,R.color.black),
+                ContextCompat.getColor(this,R.color.light_coral),
+                ContextCompat.getColor(this,R.color._light_green),
+                ContextCompat.getColor(this,R.color.dark_red),
+                ContextCompat.getColor(this,R.color.dark_orange),
+                ContextCompat.getColor(this,R.color.khaki),
+                ContextCompat.getColor(this,R.color.brown),
+                ContextCompat.getColor(this,R.color.purple),
                 
         };
 
