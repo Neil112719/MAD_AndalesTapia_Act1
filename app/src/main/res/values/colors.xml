@@ -146,4 +146,7 @@
     <color name="purple_500">#A06AFF</color>
     <color name="fink_500">#E97777</color>
     <color name="custom">#FCDDB0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#FF018786</color>
 </resources>

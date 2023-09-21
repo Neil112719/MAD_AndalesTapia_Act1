@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         color = findViewById(R.id.color);
         colorArray = new int[]{
                 ContextCompat.getColor(this,R.color.blue),
-                ContextCompat.getColor(this,R.color.teal_200),
                 ContextCompat.getColor(this,R.color.yellow),
                 ContextCompat.getColor(this,R.color.black),
                 ContextCompat.getColor(this,R.color.light_coral),
@@ -36,11 +35,17 @@ public class MainActivity extends AppCompatActivity {
                 
         };
 
-        decrease.setOnClickListener(view -> {
-            text.setTextSize(20);
+        decrease.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                text.setTextSize(30);
+            }
         });
-        increase.setOnClickListener(view -> {
-            text.setTextSize(40);
+        increase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                text.setTextSize(60);
+            }
         });
         color.setOnClickListener(new View.OnClickListener() {
             @Override
